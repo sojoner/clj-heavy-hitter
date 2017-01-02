@@ -41,7 +41,7 @@ Read about it for example here [heavy hitters](http://www.slideshare.net/mikiobr
           (println sorted)    
 ```
 
-For some use cases it makes sense to reset the structure data structures.
+For some use cases it makes sense to reset the data structures.
 
 ```Clojure
 (reset! hitter (priority-map))
